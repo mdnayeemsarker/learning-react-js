@@ -21,5 +21,10 @@ Students.propTypes = {
     age: propTypes.number
 }
 
+Students.defaultProps = {
+    name: "Name",
+    age: 0
+}
+
 
 export default Students
