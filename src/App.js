@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Footer} from './Header';
+import Header from './components/Header';
 
 function App() {
 
@@ -11,9 +11,9 @@ function App() {
       <a className="App-link" href="https://www.facebook.com/mdnayeemsarkar03" target="_blank" rel="noopener noreferrer">
         <h2>{name}</h2>
       </a>
-      <Footer />
     </div>
   );
 }
 
 export default App;
+
