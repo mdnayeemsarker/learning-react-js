@@ -1,7 +1,13 @@
 const Header = () => {
     return(
-        <h1>Header Section</h1>
+        <h1>Header section edit</h1>
     )
 }
 
-export default Header;
+function Footer(){
+    return(
+        <h2>Footer section edit</h2>
+    );
+}
+
+export {Header, Footer};
